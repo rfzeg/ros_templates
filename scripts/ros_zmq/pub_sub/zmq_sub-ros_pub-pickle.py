@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
-""" Connects to a ZMQ socket that has received a serialized turtlesim
- Color, then deserializes it using Pickle and publishes it to a ROS
- topic (/test_out). """
+"""
+Connects to a ZMQ socket that has received a serialized turtlesim Color, then
+ deserializes it using Pickle and publishes it to a ROS topic (/test_out).
 
-from __future__ import division
-
+BioRobotics Lab, Florida Atlantic University, 2016
+"""
 __author__ = "Thomas Colestock"
 __version__ = "1.0.0"
 

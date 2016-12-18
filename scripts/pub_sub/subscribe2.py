@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
-""" Provides another template for creating a ROS subscriber.
- Subscribes to the turtlesim color and then prints the
- data. """
+"""
+Provides another template for creating a ROS subscriber. Subscribes to the
+ turtlesim color and then prints the data.
 
-from __future__ import division
-
+BioRobotics Lab, Florida Atlantic University, 2016
+"""
 __author__ = "Thomas Colestock"
 __version__ = "1.0.0"
 
@@ -13,6 +13,7 @@ import rospy
 
 from std_msgs.msg import String, Float32, UInt8
 from turtlesim.msg import Color
+
 
 rospy.init_node("test_sub", anonymous=True)
 

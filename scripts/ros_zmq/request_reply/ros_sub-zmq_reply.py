@@ -1,11 +1,12 @@
 #!/usr/bin/env python
 
-""" Shows a general form of using the ZMQ Reply protocol. Also,
- showcases how a ROS topic's data can be retrieved through a
- subscriber and returned as the ZMQ reply. """
+"""
+Shows a general form of using the ZMQ Reply protocol. Also, showcases how a ROS
+ topic's data can be retrieved through a subscriber and returned as the ZMQ
+ reply.
 
-from __future__ import division
-
+BioRobotics Lab, Florida Atlantic University, 2016
+"""
 __author__ = "Thomas Colestock"
 __version__ = "1.0.0"
 

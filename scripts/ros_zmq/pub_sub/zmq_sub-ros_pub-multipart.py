@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 
-""" Uses the turtlesim color to test taking data from a
- multipart ZMQ publisher and publishing it to a ROS topic . """
+"""
+Uses the turtlesim color to test taking data from a multipart ZMQ publisher and
+ publishing it to a ROS topic.
 
-from __future__ import division
-
+BioRobotics Lab, Florida Atlantic University, 2016
+"""
 __author__ = "Thomas Colestock"
 __version__ = "1.0.0"
 

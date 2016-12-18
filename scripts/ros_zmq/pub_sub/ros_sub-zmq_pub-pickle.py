@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
-""" Uses the turtlesim color to test taking data from ROS
- and pushing it to ZMQ by using pickle to serialize the
- Python ROS message object types. """
+"""
+Uses the turtlesim color to test taking data from ROS and pushing it to ZMQ by
+ using pickle to serialize the Python ROS message object types.
 
-from __future__ import division
-
+BioRobotics Lab, Florida Atlantic University, 2016
+"""
 __author__ = "Thomas Colestock"
 __version__ = "1.0.0"
 

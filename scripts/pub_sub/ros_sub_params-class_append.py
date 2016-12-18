@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
-""" This example shows how to pass multiple variables to a ROS
- Subscriber object, and how to append the received values to a
- class object attribute.  """
+"""
+This example shows how to pass multiple variables to a ROS Subscriber object,
+ and how to append the received values to a class object attribute.
 
-from __future__ import division
-
+BioRobotics Lab, Florida Atlantic University, 2016
+"""
 __author__ = "Thomas Colestock"
 __version__ = "1.0.0"
 
@@ -17,7 +17,7 @@ from turtlesim.msg import Color
 
 
 class fobar(object):
-    """docstring for fobar"""
+    """Example class"""
     def __init__(self, ):
         self.r = []
         self.g = 0

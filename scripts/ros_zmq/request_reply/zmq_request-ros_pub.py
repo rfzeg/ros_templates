@@ -1,11 +1,12 @@
 #!/usr/bin/env python
 
-""" Shows how to us a general form of the ZMQ Request protocol.
- Also shows how a request can be made, and the returned data can
- be put into a ROS topic by a ROS Publisher. """
+"""
+Shows how to us a general form of the ZMQ Request protocol. Also shows how a
+ request can be made, and the returned data can be put into a ROS topic by a
+ ROS Publisher.
 
-from __future__ import division
-
+BioRobotics Lab, Florida Atlantic University, 2016
+"""
 __author__ = "Thomas Colestock"
 __version__ = "1.0.0"
 

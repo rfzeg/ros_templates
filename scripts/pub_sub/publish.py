@@ -1,5 +1,12 @@
 #!/usr/bin/env python
-# license removed for brevity
+
+"""
+Provides a basic template for creating a ROS Publisher.
+
+BioRobotics Lab, Florida Atlantic University, 2016
+"""
+__author__ = "Thomas Colestock"
+__version__ = "1.0.0"
 
 import rospy
 

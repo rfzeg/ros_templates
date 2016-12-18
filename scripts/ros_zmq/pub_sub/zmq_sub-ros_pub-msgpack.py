@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
-""" Subscribes to a ZMQ socket, and uses msgpack to deserialize,
- then rospy_msgpack to convert back into an appropriate ROS msg
- format. """
+"""
+Subscribes to a ZMQ socket, and uses msgpack to deserialize, then rospy_msgpack
+ to convert back into an appropriate ROS msg format.
 
-from __future__ import division
-
+BioRobotics Lab, Florida Atlantic University, 2016
+"""
 __author__ = "Thomas Colestock"
 __version__ = "1.0.0"
 

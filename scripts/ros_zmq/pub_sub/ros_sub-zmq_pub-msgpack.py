@@ -1,13 +1,12 @@
 #!/usr/bin/env python
 
-""" Uses the turtlesim command velocity to test taking data
- from ros and pushing it to ZMQ. Utilizes the rospy_msgpack
- library (custom built) to convert the ROS message type into
- a form that is serializable by msgpack."""
+"""
+Uses the turtlesim command velocity to test taking data from ros and pushing it
+ to ZMQ. Utilizes the rospy_msgpack library (custom built) to convert the ROS
+ message type into a form that is serializable by msgpack.
 
-from __future__ import division
-
-# These must come after __future__
+BioRobotics Lab, Florida Atlantic University, 2016
+"""
 __author__ = "Thomas Colestock"
 __version__ = "1.0.0"
 
