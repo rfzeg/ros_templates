@@ -4,7 +4,11 @@ project(ros_templates)
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
-find_package(catkin REQUIRED)
+find_package(catkin REQUIRED COMPONENTS
+  roscpp
+  rospy
+  std_msgs
+)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -109,6 +113,9 @@ catkin_package(
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 # include_directories(include)
+include_directories(
+  ${catkin_INCLUDE_DIRS}
+)
 
 ## Declare a C++ library
 # add_library(ros_templates
@@ -122,6 +129,8 @@ catkin_package(
 
 ## Declare a C++ executable
 # add_executable(ros_templates_node src/ros_templates_node.cpp)
+add_executable(publish src/pub_sub/publish.cpp)
+add_executable(subscribe src/pub_sub/subscribe.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
@@ -131,6 +140,8 @@ catkin_package(
 # target_link_libraries(ros_templates_node
 #   ${catkin_LIBRARIES}
 # )
+target_link_libraries(publish ${catkin_LIBRARIES})
+target_link_libraries(subscribe ${catkin_LIBRARIES})
 
 #############
 ## Install ##
